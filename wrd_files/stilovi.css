@@ -1,0 +1,40 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+}
+
+h1 {
+    text-align: center;
+} */
+
+hr {
+    padding-left: 250px;
+    width: 5%;
+    
+}
+
+/* nav {
+    font-weight: 800;
+    width: 30%;
+    height: 100%;
+    background: #0033cc;
+    position: fixed;
+}
+
+nav a {
+    font-size: 18px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-left: 45px;
+    padding: 5px;
+}
+
+nav span {
+    margin-left: 27px;
+} */ 
