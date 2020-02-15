@@ -1,26 +1,99 @@
-/* * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    line-height: 1.5;
-}
-
-h1 {
-    text-align: center;
-} */
-
-hr {
-    padding-left: 250px;
-    width: 5%;
     
 }
 
-/* nav {
+body,html {
+    line-height: 1.5; 
+    
+}
+
+/*h1 {
+    margin-right: 100px;
+    text-align: center;
+}*/
+
+h3 {
+    margin-top: 5px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+    padding: auto;
+}
+
+
+hr {
+    width: 5%;
+    margin-top: 5px;
+    margin-left: 330px;
+}
+
+label, input {
+    padding: 5px; 
+    margin-left: 330px;
+    height: 28px;
+}
+
+textarea {
+    width: 50%;
+    margin-left: 330px;
+    margin-top: 5px;
+    height: 30px;
+}
+
+input[type=submit] {
+    padding-bottom: 20px;
+    background: silver;
+}
+
+
+
+#wrapper {
+    display: table-cell;
+    margin-right: 50vh;
+}
+
+#wrapper h1{
+    margin-left: 330px;
+}
+
+.wrap {
+    width: 1000px;
+    margin-top: 5px;
+    margin-left: 320px;
+}
+
+.card {
+    width: 200px;
+    background: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-family: sans-serif;
+    float: left;
+    margin: 1.2em;
+}
+
+input {
+    width: 50%;
+}
+
+#table {
+    width: 50%;
+    margin-left: 330px;
+}
+
+footer .container {
+    margin: 0 20.6rem;
+}
+
+nav {
     font-weight: 800;
-    width: 30%;
+    width: 20%;
     height: 100%;
     background: #0033cc;
     position: fixed;
@@ -37,4 +110,5 @@ nav a {
 
 nav span {
     margin-left: 27px;
-} */ 
+}
+
