@@ -2,12 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 body,html {
-    line-height: 1.5; 
-    
+    line-height: 1.5;  
 }
 
 /*h1 {
@@ -19,7 +17,23 @@ h3 {
     margin-top: 5px;
 }
 
-img {
+.naslov {
+    padding-left: 330px;
+}
+
+.img1 {
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+    padding: auto;
+}
+.img2 {
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+    padding: auto;
+}
+.img3 {
     width: 100%;
     height: auto;
     margin-right: auto;
@@ -52,7 +66,6 @@ input[type=submit] {
 }
 
 
-
 #wrapper {
     display: table-cell;
     margin-right: 50vh;
@@ -63,6 +76,7 @@ input[type=submit] {
 }
 
 .wrap {
+    float: none;
     width: 1000px;
     margin-top: 5px;
     margin-left: 320px;
