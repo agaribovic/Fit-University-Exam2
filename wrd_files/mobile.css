@@ -1,0 +1,133 @@
+nav {
+    font-weight: 800;
+    width: 12%;
+    height: 100%;
+    background: #0033cc;
+    position: fixed;
+}
+
+nav a {
+    font-size: 16px;
+    padding-left: 0;
+}
+
+.menu {
+    display: none;
+    overflow: hidden;
+}
+
+span {
+    font-size: 22px;
+    text-align: center;
+}
+
+
+h3 {
+    font-size: 16px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    margin-left: -460px;
+}
+
+/* Prvi Card */
+.naslov1 {
+    margin-top: 10px;
+    font-size: 18px;
+    margin-left: -390px;
+}
+
+.text4 {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 10px;
+    margin-left: -400px;
+}
+
+.text1 {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 10px;
+    margin-left: -200px;
+}
+
+/* Drugi Card */
+.naslov2 {
+    font-size: 18px;
+    margin-top: 10px;
+    width: 100%;
+    margin-left: 130px;
+}
+.text5 {
+    margin-top: 10px;
+    width: 100%;
+    font-size: 10px;
+    margin-right: -250px;
+}
+.text2 {
+    font-size: 10px;
+    margin-top: 10px;
+    width: 100%;
+    margin-left: 120px;
+}
+
+/* Treci Card */
+.naslov3 {
+    margin-top: 10px;
+    font-size: 18px;
+    margin-right: -690px;
+}
+.text6 {
+    margin-top: 10px;
+    width: 100%;
+    font-size: 10px;
+    margin-right: -230px;
+}
+.text3 {
+    margin-top: 10px;
+    width: 100%;
+    font-size: 10px;
+    margin-left: 120px;
+}
+
+/* strong {
+    font-size: 10px;
+    margin-left: -460px;
+} */
+
+#wrapper h1 {
+    width: 19%;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 140px;
+}
+
+.wrap {
+    display: block;
+    width: 100%;
+    margin-top: -15px;   
+}
+
+.card {
+    width: 20%;
+    float: none;  
+}
+
+.img1 {
+    margin-left: -395px
+}
+.img2 {
+    margin-left: 120px;
+}
+.img3 {
+    margin-left: 120px;
+}
+
+hr {
+    margin-top: 15px;
+    margin-left: 140px;
+}
+
+.naslov {
+    font-size: 13px;
+    padding-left: 140px;
+}
