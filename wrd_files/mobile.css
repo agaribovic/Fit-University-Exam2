@@ -131,3 +131,10 @@ hr {
     font-size: 13px;
     padding-left: 140px;
 }
+
+form {
+    float: none;
+    width: 42%;
+    margin-left: -190px;
+    height: 100%;
+}
