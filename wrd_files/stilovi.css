@@ -112,3 +112,6 @@ nav span {
     margin-left: 27px;
 }
 
+form .error {
+    color: #ff0000;
+  }
