@@ -46,7 +46,7 @@ $(function() {
         },
         Phone: {
           required: "Telefon je obavezan",
-          phoneUS: "Molimo unesite broj u pravilnom formatu"
+          phoneUS: "Molimo unesite broj u pravilnom formatu (US number format)"
         },
       },
       submitHandler: function(form) {
