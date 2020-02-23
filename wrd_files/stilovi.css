@@ -68,7 +68,7 @@ input[type=submit] {
 
 #wrapper {
     display: table-cell;
-    margin-right: 50vh;
+    margin-right: 150px;
 }
 
 #wrapper h1{
@@ -97,12 +97,17 @@ input {
 }
 
 #table {
+    font-size: 17px;
     width: 50%;
     margin-left: 330px;
+    overflow-x: auto;
+    
 }
 
-footer .container {
-    margin: 0 20.6rem;
+#footer {
+    
+    margin-top: 0px;
+    margin-left: 330px;
 }
 
 nav {
@@ -125,4 +130,5 @@ nav a {
 nav span {
     margin-left: 27px;
 }
+
 
