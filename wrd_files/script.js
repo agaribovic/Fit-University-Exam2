@@ -34,8 +34,8 @@ fetch('http://onlineshop.wrd.app.fit.ba/api/ispit20190622/Narudzba/GetAll')
                     </tdead>
                     <tbody>
                     </tbody>`;
-                        document.getElementById('table').innerHTML += rezultat;
                     });
+                    document.getElementById('table').innerHTML += rezultat;
                 })
 
 document.getElementById('registration').addEventListener('submit', registration);
@@ -51,9 +51,33 @@ document.getElementById('registration').addEventListener('submit', registration)
             
             fetch('http://onlineshop.wrd.app.fit.ba/api/ispit20190622/Narudzba/Dodaj', {
                 method: 'POST',
-                headers : new Headers(),
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                  },
                 body:JSON.stringify({dostavaIme: dostavaIme, dostavaAdresa: dostavaAdresa, postalcode: postalcode, phone: phone, napomena: napomena})
             }).then((res) => res.json())
             .then((data) =>  console.log(data))
             .catch((err)=>console.log(err))
         }
+
+        function filter() {
+     
+            var input, filter, table, tr, td, i, txtValue;
+            input = document.getElementById("filtiranje");
+            filter = input.value.toUpperCase();
+            table = document.getElementById("table");
+            tr = table.getElementsByTagName("tr");
+          
+            for (i = 0; i < tr.length; i++) {
+              td = tr[i].getElementsByTagName("td")[2];
+              if (td) {
+                txtValue = td.textContent || td.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                  tr[i].style.display = "";
+                } else {
+                  tr[i].style.display = "none";
+                }
+              }
+            }
+          }

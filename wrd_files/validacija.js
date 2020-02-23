@@ -1,7 +1,7 @@
 
 $(function() {
     jQuery.validator.addMethod("lettersonly", function(value, element) {
-      return this.optional(element) || /^[a-z]+$/i.test(value);
+      return this.optional(element) || /^[a-z\s]+$/i.test(value);
     }, "Samo slova"); 
     
     jQuery.validator.addMethod('phoneUS', function(phone_number, element) {

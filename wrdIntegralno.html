@@ -7,6 +7,7 @@
   <link rel="stylesheet" type="text/css" href="./wrd_files/stilovi.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <title>WRD ispit</title>
+  
 
 </head>
 <body> 
@@ -79,17 +80,17 @@
       <input id="Phone" name="Phone" placeholder="+387-61-888-8888"><br>
       <label for="note">Napomena</label><br>
       <textarea id="napomena"></textarea>
-      <input type="submit" name="submit" value="Dodaj kupca"/>  
+      <input type="submit" name="btnSubmit" value="Dodaj kupca"/>  
   </form>
 
     <div>
     <label for="filtiranje">Filtriraj podatke po imenu</label>
-    <input id="filtiranje" placeholder="upisi dio imena"/><br><br>
+    <input id="filtiranje" placeholder="upisi dio imena" onkeyup="filter()"/><br><br>
     </div>
     </form>
     <table id="table" border="1px">
       <thead>
-          <tr>
+          <tr class="header">
               <th>Id Kupca</th>
               <th>Datum</th>
               <th>Ime</th>
