@@ -37,6 +37,7 @@ fetch('http://onlineshop.wrd.app.fit.ba/api/ispit20190622/Narudzba/GetAll')
                     });
                     document.getElementById('table').innerHTML += rezultat;
                 })
+            
 
 document.getElementById('registration').addEventListener('submit', registration);
 
@@ -55,8 +56,8 @@ document.getElementById('registration').addEventListener('submit', registration)
                     'Accept': 'application/json',
                     'Content-Type': 'application/json'
                   },
-                body:JSON.stringify({dostavaIme: dostavaIme, dostavaAdresa: dostavaAdresa, postalcode: postalcode, phone: phone, napomena: napomena})
-            }).then((res) => res.json())
+                body:JSON.stringify({dostavaIme: dostavaIme, dostavaAdresa: dostavaAdresa, dostavaPostanskiBroj: postalcode, dostavaTelefon: phone, napomena: napomena})
+            }).then((res) => res.json())  
             .then((data) =>  console.log(data))
             .catch((err)=>console.log(err))
         }
