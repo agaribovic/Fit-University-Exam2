@@ -1,22 +1,33 @@
 
 #main-container {
+<<<<<<< HEAD
     overflow: hidden;
     vertical-align: super;
 	width: 50%;
     height: 100%;
+=======
+	display: table;
+	width: 100%;
+	height: 100%;
+>>>>>>> 0c60b6260ab27719a5a7e40c9a82c4bfad6ab8c5
 }
 /* ----------------Navigation Menu  ---------------- */
 #nav{
 	font-size: 30px;
 	width: 100%;
+<<<<<<< HEAD
     height: 70px;
     padding-top: 0px;
     line-height: 0px;
+=======
+	height: 7%;
+>>>>>>> 0c60b6260ab27719a5a7e40c9a82c4bfad6ab8c5
 	position: fixed;
 	display: block;
 	background-color: #0033cc;
 }
 .menu {
+<<<<<<< HEAD
     margin: 0  0px 0;
     padding-left: 0px;
     text-align: center;
@@ -52,6 +63,42 @@ span {
     display: none;
 }
 
+=======
+    margin: 0 30px 0 0;
+}
+.menu a {
+    clear: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 4px;
+    margin: 20px 10px;
+	line-height: 30px;
+	display: block;
+	text-align: center;
+}
+label {
+    margin: 100px 0px 0 0;
+    font-size: 26px;
+    line-height: 40px;
+    display: none;
+    width: 20%;
+	float: left;
+	color: white;
+}
+span {
+	line-height: 30px;
+	margin-right: 30px;
+    display: inline;
+}
+#toggle {
+    color: red;
+    display: none;
+}
+
+
+
+>>>>>>> 0c60b6260ab27719a5a7e40c9a82c4bfad6ab8c5
 /* ---------------- Main ---------------- */
 #content {
     
@@ -60,6 +107,7 @@ span {
 }
 .container {
     display: block;
+<<<<<<< HEAD
     padding-top: 0px;
 }
 .container .naslov1 {
@@ -76,6 +124,15 @@ hr {
 /* Cards and Image */
 
 
+=======
+    padding-top: 40px;
+}
+.container .naslov1 {
+    font-size: 44px;
+}
+/* Cards and Image */
+
+>>>>>>> 0c60b6260ab27719a5a7e40c9a82c4bfad6ab8c5
 .container .card h3 {
     font-size: 20px;
 }
@@ -84,16 +141,27 @@ hr {
 }
 .container .card {
     margin-left: 20px;
+<<<<<<< HEAD
     min-width: 320px;
 }
 /* Forms */
 form {
       padding-right: 2rem;
       margin-left: 10px;
+=======
+    min-width: 290px;
+}
+/* Forms */
+form {
+      font-size: 16px;
+      padding-right: 2rem;
+      margin-left: 15px;
+>>>>>>> 0c60b6260ab27719a5a7e40c9a82c4bfad6ab8c5
       width: 161%;
 }
   label {
     color: black;
+<<<<<<< HEAD
     line-height: 150px;
     margin-bottom: 0px;
     padding-left: 40px;
@@ -105,18 +173,41 @@ input {
     margin-bottom: -150px;
     padding-top: 10px;
     line-height: 22px;
+=======
+    width: 90%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-left: .5px;
+    display: block;
+    text-align: left;
+    font-size: 16px;
+    height: 30px;
+}
+input {
+    margin-top: 5px;
+    margin-bottom: -150px;
+    padding-top: 5px;
+>>>>>>> 0c60b6260ab27719a5a7e40c9a82c4bfad6ab8c5
     padding-bottom: 5px;
     width: 55%;
 }
 input::placeholder {
+<<<<<<< HEAD
     margin-top: 0px;
+=======
+>>>>>>> 0c60b6260ab27719a5a7e40c9a82c4bfad6ab8c5
     padding-left:9px;
 }
 textarea {
     width: 55%; 
     margin-left: 0px;
+<<<<<<< HEAD
     margin-top: 10px;
     height: 40px;
+=======
+    margin-top: 5px;
+    height: 29px;
+>>>>>>> 0c60b6260ab27719a5a7e40c9a82c4bfad6ab8c5
 }
 input[type=submit] {
     width: 55%; 
@@ -132,6 +223,7 @@ input[type=submit] {
 }
 /* Filter podataka */
 .filter1{
+<<<<<<< HEAD
     margin-top: -32px;
     padding-left: 80x; 
 }
@@ -139,12 +231,25 @@ input[type=submit] {
     margin-left: 41.5px;
     margin-top: 0px;
     width: 79%;
+=======
+    margin-bottom: 12px;
+    padding-left: 45px; 
+}
+.filter2{
+    margin-left: 43.5px;
+    margin-top: px;
+    width: 82%;
+>>>>>>> 0c60b6260ab27719a5a7e40c9a82c4bfad6ab8c5
 }
 /* Table */
     table {
         display: fixed;
         width: 22%;
+<<<<<<< HEAD
         font-size: 8px;
+=======
+        font-size: 17px;
+>>>>>>> 0c60b6260ab27719a5a7e40c9a82c4bfad6ab8c5
         border: none;
         border-collapse: collapse ;
         min-width: 320px;
@@ -179,7 +284,11 @@ input[type=submit] {
 @media only screen and (max-width: 600px) {
     label {
         margin-top: -40px;
+<<<<<<< HEAD
 		color: black;
+=======
+		color: white;
+>>>>>>> 0c60b6260ab27719a5a7e40c9a82c4bfad6ab8c5
         display: block;
         cursor: pointer;
     }
@@ -191,14 +300,24 @@ input[type=submit] {
     .menu a {
         display: block;
         border-bottom: 1px solid #EAEAEB;
+<<<<<<< HEAD
         margin: 0px -29px ;
     }
     #toggle {
         margin: 2000x;
+=======
+        margin: 5px;
+    }
+    #toggle {
+        margin: 10x;
+>>>>>>> 0c60b6260ab27719a5a7e40c9a82c4bfad6ab8c5
     }
     #toggle:checked + .menu {
 		background-color: #0033cc;
         display: block;
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0c60b6260ab27719a5a7e40c9a82c4bfad6ab8c5
 }

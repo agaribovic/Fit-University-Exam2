@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" type="text/css" href="./wrd_files/stilovi.css">
+<<<<<<< HEAD
+  <link rel="stylesheet" media="only screen and (max-width: 600px)" href="wrd_files/mobile.css">
+=======
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <link rel="stylesheet" media="only screen and (max-width: 600px)" href="wrd_files/mobile.css">
   <title>WRD ispit</title>
+>>>>>>> 0c60b6260ab27719a5a7e40c9a82c4bfad6ab8c5
+  <title>WRD ispit</title>
+
 
 </head>
+<<<<<<< HEAD
 <body> 
 	<div id="main-container">
 
@@ -28,6 +37,29 @@
 </div>
 
 <!---------------- Main ---------------------------------------------------->	
+=======
+
+<body>
+
+  <div id="main-container">
+
+    <!---------------- Navigation Menu --------------------------------------->
+    <div id="nav">
+      <span style="color:white; width:30%; font-size:25px;">BROJ INDEXA</span>
+      <label for="toggle">&#9776;</label>
+      <input type="checkbox" id="toggle"/>
+      <div class="menu">
+        <a href="#">Home</a>
+        <a href="#">AMF 1</a>
+        <a href="#">AMF 2</a>
+        <a href="#">AMF 3</a>
+        <a href="#">AMF 4</a>
+        <a href="#">AMF 5</a>
+      </div>
+    </div>
+
+  <!---------------- Main ---------------------------------------------------->	
+>>>>>>> 0c60b6260ab27719a5a7e40c9a82c4bfad6ab8c5
 		<div id="content">
 			<div class="container">
 				<h1 class="naslov1">Iznajmljivanje nekretnine</h1>
@@ -57,6 +89,7 @@
 					</div>
 				</div>
 			</div>
+<<<<<<< HEAD
 			</div>
 		</div>
 			
@@ -89,6 +122,39 @@
 <section>
     <table id="table"border="1px">
       <thead>
+=======
+      </div>
+    </div>
+    
+
+    <section>
+    <form action="" name="registration" id="registration">
+      <div>
+      <label for="Name">Ime</label><br><br>
+      <input id="dostavaIme" name="dostavaIme" placeholder="kupac ime" class="name"/><br>
+      <label for="Address">Adresa</label><br><br>
+      <input id="Address" name="Address" placeholder="kupac adresa" class="address"/><br>
+      <label for="postalcode">Poštanski broj</label><br><br>
+      <input id="postalcode" name="postalcode" value="" class="postalcode"/><br>
+      <label for="Phone">Telefon</label><br><br>
+      <input id="Phone" name="Phone" placeholder="+387-61-888-8888" class="phone"><br>
+      <label for="note">Napomena</label><br><br>
+      <textarea id="napomena" class="note"></textarea><br>
+      <input type="submit" class="btn" name="btnSubmit" value="Dodaj kupca" />
+    </form>
+    </section>
+  </div>
+
+    <div class="filter">
+      <label for="filtiranje"  class="filter1">Filtriraj podatke po imenu</label><br>
+      <input id="filtiranje" placeholder="upisi dio imena" onkeyup="filtrirajPodatke()" class="filter2"/><br><br>
+    </div>
+    </form>
+    <section>
+    <table id="table" border="1px">
+      <thead>
+        <tr class="header">
+>>>>>>> 0c60b6260ab27719a5a7e40c9a82c4bfad6ab8c5
           <th>Id Kupca</th>
           <th>Datum</th>
           <th>Ime</th>
@@ -96,6 +162,7 @@
           <th>Poštanski broj</th>
           <th>Telefon</th>
           <th>Napomena</th>
+<<<<<<< HEAD
       </thead>
       <tbody>
       <tr>
@@ -144,4 +211,59 @@
 	
 
 </body>
+=======
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>22.06.2019</td>
+          <td>Kupac Prvi</td>
+          <td>Adresa prva</td>
+          <td>Postanski broj prvi</td>
+          <td>Telefon prvi</td>
+          <td>Napomena prva</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>22.06.2019</td>
+          <td>Kupac Drugi</td>
+          <td>Adresa druga</td>
+          <td>Postanski broj drugi</td>
+          <td>Telefon drugi</td>
+          <td>Napomena druga</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>22.06.2019</td>
+          <td>Kupac Treci</td>
+          <td>Adresa treca</td>
+          <td>Postanski broj treci</td>
+          <td>Telefon treci</td>
+          <td>Napomena treca</td>
+        </tr>
+      </thead>
+    </tbody>
+  </table>
+  </section>
+  </div>
+  </div>
+
+  <!-- Footer -->
+  <section>
+  <footer>
+    <div class="container">
+      <p>&copy; Copyright by FIT</p><br><br>
+    </div>
+  </footer>
+</section>
+
+  <script src="./wrd_files/script.js"></script>
+  <script src="jQueryUI/jquery-ui.min.js"></script>
+  <script src="jquery-validation-1.16.0/dist/jquery.validate.min.js"></script>
+  <script src="wrd_files/validacija.js"></script>
+
+</body>
+
+>>>>>>> 0c60b6260ab27719a5a7e40c9a82c4bfad6ab8c5
 </html>

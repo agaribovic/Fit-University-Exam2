@@ -26,7 +26,11 @@ body {
 	vertical-align: top;
     background-color: #0033cc;
     text-align: center;
+<<<<<<< HEAD
     height: 6px;
+=======
+    height: 0px;
+>>>>>>> 0c60b6260ab27719a5a7e40c9a82c4bfad6ab8c5
     line-height: 39px;
 }
 
@@ -46,7 +50,12 @@ body {
 }
 
 .nav a {
+<<<<<<< HEAD
 	font-size: 20px;
+=======
+	font-size: 18px;
+	text-align: ;
+>>>>>>> 0c60b6260ab27719a5a7e40c9a82c4bfad6ab8c5
 	display: inline-block;
 	padding: 10px;
 	color: white;
@@ -163,7 +172,11 @@ hr {
   	width: 100%;
   	margin-top: 1px;
 	padding-left: 40px;
+<<<<<<< HEAD
 	display: inline-block;
+=======
+  	display: inline-block;
+>>>>>>> 0c60b6260ab27719a5a7e40c9a82c4bfad6ab8c5
   	text-align: left;
   	font-size: 16px;
     height: 30px;
