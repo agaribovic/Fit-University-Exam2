@@ -5,144 +5,143 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" type="text/css" href="./wrd_files/stilovi.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" media="only screen and (max-width: 600px)" href="wrd_files/mobile.css">
   <title>WRD ispit</title>
 
 </head>
 <body> 
+	<div id="main-container">
 
-<!--Sidebar left-->
-<nav>
-  <div style="text-align: left;font-size:30px;margin: 20px;">
-      <a id="sidebar">☰</a><span style="color:white; width:10px;">BROJ INDEXA</span>
-  </div>
-
-   <div id="menu" style="clear:botd">
-  <a class="IzbornikStavka" href="#">Home</a> 
-  <a class="IzbornikStavka" href="#">AMF 1</a> 
-  <a class="IzbornikStavka" href="#">AMF 2</a> 
-  <a class="IzbornikStavka" href="#">AMF 3</a> 
-  <a class="IzbornikStavka" href="#">AMF 4</a> 
-  <a class="IzbornikStavka" href="#">AMF 5</a>
-</div>
-</nav>
-
-<!-- Main -->
-<div id="wrapper">
-  <div class="container">
-    <h1>Iznajmljivanje nekretnine</h1>
-    <hr />
-    <p>Odaberite vilu</p>
-  
-  
-  <div class="row">
-  	<div class="wrap">
-  		<div class="card">
-        <div class="column">
-  			<img src="wrd_files/team2.jpg" alt="team1" class="img">
-				<h3>Vila Mostar</h3>
-				<strong>100 KM po danu</strong>
-				<p>Vila u odlicnom stanju. Na klizištu, nije puno prešla. Uskoro u centru Mostara.</p>
-			</div>
-		</div>
-  </div>
-
-  
-		<div class="card">
-  			<div class="column">
-        <img src="wrd_files/team1.jpg" alt="team2" class="img">
-				<h3>Vila Buna - Blagaj </h3>
-				<strong>120 KM po danu</strong>
-				<p>Vila u odlicnom stanju. Na klizištu, nije puno prešla. Uskoro u centru Mostara.</p>
-			</div>
-		</div>
-
-		<div class="card">
-  			<div class="column">
-        <img src="wrd_files/team3.jpg" alt="team1" class="img">
-				<h3>Vila Vlašić</h3>
-				<strong>130 KM po danu</strong>
-				<p>Vila u odlicnom stanju. Na klizištu, nije puno prešla. Uskoro u centru Mostara.</p>
-			</div>
-		</div>
+<!---------------- Navigation Menu --------------------------------------->
+<div id="nav">
+	<span style="color:white; width:30%; font-size:25px;">BROJ INDEXA</span>
+	<label for="toggle" class="label" >&#9776;</label>
+	<input type="checkbox" id="toggle"/>
+	<div class="menu">
+		<a href="#">Home</a>
+		<a href="#">AMF 1</a>
+		<a href="#">AMF 2</a>
+		<a href="#">AMF 3</a>
+		<a href="#">AMF 4</a>
+		<a href="#">AMF 5</a>
 	</div>
 </div>
 
-  <form action="" name="registration">
-      <label for="Name">Ime</label><br>
-      <input id="dostavaIme" name="dostavaIme" placeholder="kupac ime"/><br>
-      <label for="Address">Adresa</label><br>
-      <input id="Address" name="Address" placeholder="kupac adresa"/><br>
-      <label for="postalcode">Poštanski broj</label><br>
-      <input id="postalcode" name="postalcode" value=""/><br>
-      <label for="Phone">Telefon</label><br>
-      <input id="Phone" name="Phone" placeholder="+387-61-888-8888"><br>
-      <label for="note">Napomena</label><br>
-      <textarea id="napomena"></textarea>
-      <input type="submit" name="submit" value="Dodaj kupca"/>  
-  </form>
-
-    <div>
-    <label for="filtiranje">Filtriraj podatke po imenu</label>
-    <input id="filtiranje" placeholder="upisi dio imena"/><br><br>
-    </div>
-    </form>
-    <table id="table" border="1px">
-      <tdead>
-          <tr>
-              <th>Id Kupca</th>
-              <th>Datum</th>
-              <th>Ime</th>
-              <th>Adresa</th>
-              <th>Poštanski broj</th>
-              <th>Telefon</th>
-              <th>Napomena</th>
-          </tr>
-          <tr>
-            <td>1</td>
-            <td>22.06.2019</td>
-            <td>Kupac Prvi</td>
-            <td>Adresa prva</td>
-            <td>Postanski broj prvi</td>
-            <td>Telefon prvi</td>
-            <td>Napomena prva</td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>22.06.2019</td>
-            <td>Kupac Drugi</td>
-            <td>Adresa druga</td>
-            <td>Postanski broj drugi</td>
-            <td>Telefon drugi</td>
-            <td>Napomena druga</td>
-          </tr>
-          <tr>
-            <td>3</td>
-            <td>22.06.2019</td>
-            <td>Kupac Treci</td>
-            <td>Adresa treca</td>
-            <td>Postanski broj treci</td>
-            <td>Telefon treci</td>
-            <td>Napomena treca</td>
-          </tr>
-        </tdead>
-        <tbody>
-        </tbody>
-  </table>
-</div>
-</div>
-
-<!-- Footer -->
+<!---------------- Main ---------------------------------------------------->	
+		<div id="content">
+			<div class="container">
+				<h1 class="naslov1">Iznajmljivanje nekretnine</h1>
+    			<hr />
+				<p class="naslov2">Odaberite vilu</p>
+			<div class="row">
+				<div class="column">
+					<div class="card">
+						<img src="wrd_files/team1.jpg" alt="team1" class="img1">
+						<h3 class="naslov1">Vila Mostar</h3>
+						<strong class="text4">100 KM po danu</strong>
+						<p class="text1">Vila u odlicnom stanju. Na klizištu, nije puno prešla. Uskoro u centru Mostara.</p>
+					</div>
+				<div class="column">
+					<div class="card">
+						<img src="wrd_files/team2.jpg" alt="team1" class="img2">
+						<h3 class="naslov1">Vila Mostar</h3>
+						<strong class="text4">100 KM po danu</strong>
+						<p class="text1">Vila u odlicnom stanju. Na klizištu, nije puno prešla. Uskoro u centru Mostara.</p>
+					</div>
+				<div class="column">
+					<div class="card">
+						<img src="wrd_files/team3.jpg" alt="team1" class="img3">
+						<h3 class="naslov1">Vila Mostar</h3>
+						<strong class="text4">100 KM po danu</strong>
+						<p class="text1">Vila u odlicnom stanju. Na klizištu, nije puno prešla. Uskoro u centru Mostara.</p>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+			
+		<section>
+		<form action="">
+			<div>
+			<label for="Name" class="name">Ime</label><br><br>
+			<input id="dostavaIme" placeholder="kupac ime"/><br>
+			<label for="Address" class="address">Adresa</label><br><br>
+			<input id="Address" placeholder="kupac adresa"/><br>
+			<label for="postalcode" class="postalcode">Poštanski broj</label><br><br>
+			<input id="postalcode" value=""/><br>
+			<label for="Phone" class="phone">Telefon</label><br><br>
+			<input id="Phone" placeholder="+387-61-888-8888"><br>
+			<label for="note" class="note">Napomena</label><br><br>
+			<textarea id="napomena"></textarea><br>
+		</div>
+			<input type="submit" class="btn" name="submit" value="Dodaj kupca"/>  
+			</form>
+		</section>
+		</div>
+	
+<!-- Fiter podatka -->  
+		<div class="filter">
+			<label for="filtiranje" class="filter1"> Filtriraj podatke po imenu </label><br><br><br>
+			<input id="filtiranje" class="filter2" placeholder="upisi dio imena"/><br><br>
+			</div>
+		
+<!-- Table -->
+<section>
+    <table id="table"border="1px">
+      <thead>
+          <th>Id Kupca</th>
+          <th>Datum</th>
+          <th>Ime</th>
+          <th>Adresa</th>
+          <th>Poštanski broj</th>
+          <th>Telefon</th>
+          <th>Napomena</th>
+      </thead>
+      <tbody>
+      <tr>
+        <td>1</td>
+        <td>22.06.2019</td>
+        <td>Kupac Prvi</td>
+        <td>Adresa prva</td>
+        <td>Postanski broj prvi</td>
+        <td>Telefon prvi</td>
+        <td>Napomena prva</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>22.06.2019</td>
+        <td>Kupac Drugi</td>
+        <td>Adresa druga</td>
+        <td>Postanski broj drugi</td>
+        <td>Telefon drugi</td>
+        <td>Napomena druga</tdomen>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>22.06.2019</td>
+        <td>Kupac Treci</td>
+        <td>Adresa treca</td>
+        <td>Postanski broj treci</td>
+        <td>Telefon treci</td>
+        <td>Napomena treca</td>
+      </tr>
+      </tbody>
+    </table>
+    </section>		
+	
+	
+	<!-- Footer -->
+	<section>
 <footer>
-  <div class="container">
-    <p>&copy; Copyright by FIT</p><br><br>
+	<div class="container">
+    <p>&copy; Copyright by FIT</p>
   </div>
 </footer>
+	</section>
 
-<script src="./wrd_files/script.js"></script>
-<script src="jQueryUI/jquery-ui.min.js"></script>
-<script src="jquery-validation-1.16.0/dist/jquery.validate.min.js"></script>
-<script src="wrd_files/validacija.js"></script>
+	
+
+	
 
 </body>
 </html>
