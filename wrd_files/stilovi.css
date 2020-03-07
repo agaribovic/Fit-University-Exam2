@@ -26,11 +26,7 @@ body {
 	vertical-align: top;
     background-color: #0033cc;
     text-align: center;
-<<<<<<< HEAD
     height: 6px;
-=======
-    height: 0px;
->>>>>>> 0c60b6260ab27719a5a7e40c9a82c4bfad6ab8c5
     line-height: 39px;
 }
 
@@ -40,22 +36,18 @@ body {
 
 .menu a {
 	display: block;
-    clear: right;
 	text-decoration: none;
 	text-align: left;
-	font-size: 16px;
+	font-size: 22px;
 	font-weight: 800;
     color: white;
-	margin: 0 17px;
+	margin: 30px 23px;
+	line-height: 0.6;
 }
 
-.nav a {
-<<<<<<< HEAD
-	font-size: 20px;
-=======
-	font-size: 18px;
-	text-align: ;
->>>>>>> 0c60b6260ab27719a5a7e40c9a82c4bfad6ab8c5
+
+/* .nav a {
+	
 	display: inline-block;
 	padding: 10px;
 	color: white;
@@ -63,10 +55,8 @@ body {
 	text-decoration: none;
 	text-align: center;
 	padding-left: 10px;
-}
-label {
-	display: none;
-}
+} */
+
 #toggle {
 	display: none;
 }
@@ -74,12 +64,13 @@ label {
 span {
 	font-weight: 550;
 	margin-top: 20px;
-	margin-left: 16px;
+	margin-left: 20px;
+	line-height: 0.8;
 	display: block;
 	color: #54D17A;
 }
-label {
-    margin: 0 40px 0 0;
+.label1 {
+    margin: 0 50px 0 0;
     font-size: 26px;
     line-height: 70px;
     display: none;
@@ -138,7 +129,7 @@ hr {
 	clear: both;
   }
   .card {
-	width: 200px;
+	width: 290px;
     background: #fff;
     text-align: center;
     font-family: sans-serif;
@@ -169,14 +160,9 @@ hr {
 	  width: 108%;
 }
   label {
-  	width: 100%;
+  	
   	margin-top: 1px;
-	padding-left: 40px;
-<<<<<<< HEAD
-	display: inline-block;
-=======
   	display: inline-block;
->>>>>>> 0c60b6260ab27719a5a7e40c9a82c4bfad6ab8c5
   	text-align: left;
   	font-size: 16px;
     height: 30px;
@@ -208,13 +194,14 @@ input[type=submit] {
 }
 /* Filter podataka */
 .filter1{
-	margin-bottom: 21px;
-	padding-left: 85px;	
+	margin-top: 20px;
+	padding-left: 46px;	
 }
 .filter2{
-	margin-left: 46px;
-	margin-top: px;
-	width: 57.5%;
+	margin-left: 42px;
+	width: 100%;
+	
+	max-width: 58%;
 }
 /* Table */
 #table {
