@@ -25,7 +25,8 @@ body {
 	display: table-cell;
 	vertical-align: top;
     background-color: #0033cc;
-    text-align: center;
+	text-align: center;
+	
     height: 6px;
     line-height: 39px;
 }
@@ -44,18 +45,6 @@ body {
 	margin: 30px 23px;
 	line-height: 0.6;
 }
-
-
-/* .nav a {
-	
-	display: inline-block;
-	padding: 10px;
-	color: white;
-	margin: -10px 130px 0 0;
-	text-decoration: none;
-	text-align: center;
-	padding-left: 10px;
-} */
 
 #toggle {
 	display: none;
