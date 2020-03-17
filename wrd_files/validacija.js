@@ -51,6 +51,7 @@ $(function () {
     },
     submitHandler: function () {
       posaljiPodatke();
+      alert("Kupac uspjesno dodan!");
     }
 
   });

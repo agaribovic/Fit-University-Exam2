@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" type="text/css" href="./wrd_files/stilovi.css">
-  <link rel="stylesheet" media="only screen and (max-width: 600px)" href="wrd_files/mobile.css">
-  <link rel="stylesheet" media="(min-width: 768px) and (max-width: 1024px)" href="wrd_files/wildscreen.css">
-  <title>WRD ispit</title>
-
-</head>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" type="text/css" href="./wrd_files/stilovi.css">
+		<link rel="stylesheet" media="only screen and (max-width: 600px)" href="wrd_files/mobile.css">
+		<link rel="stylesheet" media="(min-width: 768px) and (max-width: 1024px)" href="wrd_files/wildscreen.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<title>WRD ispit</title>
+	  
+	  </head>
 <body> 
 	<div id="main-container" id="main-container1">
 
@@ -61,22 +62,22 @@
 			</div>
 		</div>
 			
-		<section>
-		<form action="">
-			<div>
-			<label for="Name" class="name">Ime</label><br>
-			<input id="dostavaIme" placeholder="kupac ime"/><br>
-			<label for="Address" class="address">Adresa</label><br>
-			<input id="Address" placeholder="kupac adresa"/><br>
-			<label for="postalcode" class="postalcode">Poštanski broj</label><br>
-			<input id="postalcode" value=""/><br>
-			<label for="Phone" class="phone">Telefon</label><br>
-			<input id="Phone" placeholder="+387-61-888-8888"><br>
-			<label for="note" class="note">Napomena</label><br>
-			<textarea id="napomena"></textarea><br>
-		</div>
-			<input type="submit" class="btn" name="submit" value="Dodaj kupca"/>  
-			</form>
+		<section> 
+			<form action="" name="registration" id="registration">
+				<div>
+				<label for="Name">Ime</label><br>
+				<input id="dostavaIme" name="dostavaIme" placeholder="kupac ime" /><br>
+				<label for="Address">Adresa</label><br>
+				<input id="Address" name="Address" placeholder="kupac adresa" /><br>
+				<label for="postalcode">Poštanski broj</label><br>
+				<input id="postalcode" name="postalcode" value="" placeholder="71000"/><br>
+				<label for="Phone">Telefon</label><br>
+				<input id="Phone" name="Phone" placeholder="+387-61-888-8888"><br>
+				<label for="note">Napomena</label><br>
+				<textarea id="napomena"></textarea>
+				</div>
+				<input type="submit" name="btnSubmit" value="Dodaj kupca" />
+			  </form>
 		</section>
 		</div>
 	
@@ -84,7 +85,7 @@
 
 		<div id="filter" class="data">
 			<label for="filtiranje" class="filter1" class="filter3">Filtriraj podatke po imenu </label><br>
-			<input id="filtiranje" class="filter2" class="filter4" placeholder="upisi dio imena"/><br><br>
+			<input id="filtiranje" class="filter2" class="filter4" placeholder="upisi dio imena" onkeyup="filtrirajPodatke()"/><br><br>
 		</div>
 	
 		
@@ -142,9 +143,10 @@
 </footer>
 	</section>
 
-	
-
-	
+	<script src="./wrd_files/script.js"></script>
+	<script src="jQueryUI/jquery-ui.min.js"></script>
+	<script src="jquery-validation-1.16.0/dist/jquery.validate.min.js"></script>
+	<script src="wrd_files/validacija.js"></script>
 
 </body>
 </html>
