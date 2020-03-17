@@ -1,0 +1,111 @@
+#main-container {
+    overflow: hidden;
+}
+/* ----------------Navigation Menu  ---------------- */
+#nav{
+        display: table-caption;
+        width: 100%;
+        height: 7%;
+    }
+
+    .menu {
+        margin: 0  0px 0;
+        padding-left: 0px;
+        text-align: center;
+    
+    }
+    .menu a {
+        clear: none;
+        text-decoration: none;
+        font-size: 20px;
+        width: 100%;
+        padding-left: 320px;
+        color: white;
+        padding: 5px;
+        margin: 10px 290px;
+        line-height: 20px;
+        display: in;
+        text-align: center;
+        
+    }
+    .label2 {
+        font-size: 32px;
+        font-weight: 500;
+        color: white;
+    }
+    span {
+        padding-top: 80px;
+        line-height: 70px;
+        margin-right: 490px;
+        display: inline;
+    }
+    #toggle {
+        display: none;
+    }
+/* ---------------- Cards and Image ---------------- */
+.container .card{
+    width: 28%;
+}
+
+/* Forms */
+form {
+    padding-right: 2rem;
+    margin-left: 10px;
+    width: 170%;
+}
+ label {
+    color: black;
+    margin-bottom: 0px;
+    font-size: 20px;
+    height: 10px;
+ }
+.postalcode {
+        margin-top: 0px;
+}
+/* Filter podataka */
+#filter { 
+    width: 153%;
+}
+/* Table */
+#table {
+	display: table;
+	border-collapse: collapse;
+    font-size: 16px;
+    width: 88.3%;
+	margin-left: 47px;
+	max-width: 960px;
+}
+thead:nth-child(1) {
+	background-color: #9D9E9E;
+}
+
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+        .label1 {
+            margin: 0 1.2rem;
+            float: left;
+            color: white;
+            display: block;
+            cursor: pointer;
+        }
+        .menu {
+            text-align: center;
+            width: 100%;
+            display: none;
+            position: relative;
+        }
+        .menu a {
+            display: block;
+            border-bottom: 1px solid #EAEAEB;
+            margin: 0px -29px ;
+        }
+    
+        #toggle {
+            margin: 2000x;
+        }
+        #toggle:checked + .menu {
+            background-color: #0033cc;
+            display: block;
+        }
+    
+    }

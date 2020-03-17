@@ -1,0 +1,211 @@
+
+#main-container {
+    overflow: hidden;
+    vertical-align: super;
+	width: 50%;
+    height: 100%;
+}
+/* ----------------Navigation Menu  ---------------- */
+#nav{
+	font-size: 30px;
+	width: 100%;
+    height: 70px;
+    padding-top: 0px;
+    line-height: 0px;
+	position: fixed;
+	display: block;
+	background-color: #0033cc;
+}
+.menu {
+    margin: 0  0px 0;
+    padding-left: 0px;
+    text-align: center;
+
+}
+.menu a {
+    clear: none;
+    text-decoration: none;
+    font-size: 20px;
+    width: 120%;
+    color: white;
+    padding: 5px;
+    margin: 10px 290px;
+	line-height: 20px;
+    display: block;
+    text-align: center;
+	
+}
+.label1 {
+    margin: -31px 10px 0 0;
+    font-size: 32px;
+    font-weight: 500;
+	color: white;
+}
+span {
+    padding-top: 80px;
+	line-height: 70px;
+	margin-right: 90px;
+    display: inline;
+}
+#toggle {
+    display: none;
+}
+
+/* ---------------- Main ---------------- */
+#content {
+    
+    height: 2000px;    
+
+}
+.container {
+    display: block;
+    padding-top: 0px;
+}
+.container .naslov1 {
+    padding: 20px;
+    font-size: 50px;
+}
+
+h3.naslov1 {
+    line-height: 6px;
+}
+hr {
+    margin: -20px 0px 0px 29px;
+}
+/* Cards and Image */
+
+
+.container .card h3 {
+    font-size: 20px;
+}
+.container .row {
+    width: 90%;
+}
+.container .card {
+    margin-left: 20px;
+    min-width: 320px;
+}
+/* Forms */
+form {
+      padding-right: 2rem;
+      margin-left: 10px;
+      width: 161%;
+}
+  label {
+    color: black;
+    margin-bottom: 0px;
+    font-size: 20px;
+    height: 20px;
+}
+.name {
+    margin-top: 20px;
+}
+.address {
+    margin-top: 20px;
+}
+.postalcode {
+    margin-top: 20px;
+}
+.phone {
+    margin-top: 20px;
+}
+.note {
+    margin-top: 20px;
+}
+input {
+    padding-top: 10px;
+    line-height: 22px;
+    padding-bottom: 5px;
+    width: 55%;
+}
+input::placeholder {
+    margin-top: 0px;
+    padding-left:9px;
+}
+textarea {
+    width: 55%; 
+    margin-left: 0px;
+    margin-top: 10px;
+    height: 40px;
+}
+input[type=submit] {
+    width: 55%; 
+    text-align: center;
+    font-size: 16px;
+    margin-left: -1px;
+    background: silver;
+}
+.btn {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    height: 100%;
+}
+/* Filter podataka */
+#filter { 
+    
+    width: 138%;
+}
+/* Table */
+    table {
+        display: fixed;
+        width: 22%;
+        font-size: 8px;
+        border: none;
+        border-collapse: collapse ;
+        min-width: 320px;
+    }
+    
+    table thead tr th {
+        font-size: 11px;
+        width: 30%;
+    }
+    tbody tr td {
+        font-size: 13.6px;
+    }
+
+    th {
+        width: 10%;
+    }
+    tr th {
+        width: 10%;
+        font-size: 10px;
+    }
+    tr td {
+        width: 50%;
+        font-size: 16.3px;
+    }
+    /* Footer */
+    footer {
+      display: block;
+      padding-top: 1%;
+      padding-bottom: 2%;
+    }
+
+@media only screen and (max-width: 600px) {
+    .label1 {
+        margin: 0 1.2rem;
+        float: left;
+		color: white;
+        display: block;
+        cursor: pointer;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0px -29px ;
+    }
+
+    #toggle {
+        margin: 2000x;
+    }
+    #toggle:checked + .menu {
+		background-color: #0033cc;
+        display: block;
+    }
+
+}
