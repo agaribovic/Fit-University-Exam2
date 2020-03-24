@@ -24,7 +24,7 @@ function dobaviPodatke() {
       data.forEach((kupac) => {
         const { narudzbaId, datumNarudzbe, dostavaIme, dostavaAdresa, dostavaPostanskiBroj, dostavaTelefon, napomena } = kupac
         rezultat +=
-          `<tdead>
+          `<thead>
                     <tr>
                     <td>${narudzbaId}</td>
                     <td>${datumNarudzbe}</td>
@@ -34,7 +34,7 @@ function dobaviPodatke() {
                     <td>${dostavaTelefon}</td>
                     <td>${napomena}</td>
                     </tr>
-                    </tdead>
+                    </thead>
                     <tbody>
                     </tbody>`;
       });
